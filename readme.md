@@ -5,6 +5,10 @@
 [GitHub view]( https://github.com/va3c/va3c.github.io/tree/master/nasa-samples "View files with GitHub")  
 [vA3C Hackette view]( http://va3c.github.io/nasa-samples/browse-nasa-stl-models.html "View files with Hacker's little sibling" )  
 
+<iframe src="http://va3c.github.io/nasa-samples/browse-nasa-stl-models.html#./stl/Dawn_19.stl#random#" width=100% height=500px class='overview' >
+When viewing this page on github.com only the '[o]' link works. Please use Hacker or Hackette for a better viewing experience. 
+</iframe>
+
 The following files and images are available and download-able thanks to [NASA 3D Resources (Beta)]( http://nasa3d.arc.nasa.gov/models/printable ).
 
 Clicking the [O] link opens file in a new template. Click the image or text link to *add* to the file to current or existing template. 
@@ -17,6 +21,8 @@ This effort is not associated with NASA or any of its partners.
 See also [NASA Imagery Usage Guidelines]( Using NASA Imagery and Linking to NASA Web Sites )
 
 Thank you to all the people that make this effort possible!
+
+
 
 ***
 
