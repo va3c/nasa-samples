@@ -1,13 +1,13 @@
 [NASA 3D Models - 3D Printable STL Files]( ./browse-nasa-stl-models.html )
 ===
 
-[vA3C Hacker Home]( http://va3c.github.io/viewer/va3c-hacker/r3-0dev/va3c-hacker-r3-0dev.html#dispatch.js#../../../nasa-samples/browse-nasa-stl-models.html#add=true )  
+[vA3C Hackette view]( http://va3c.github.io/nasa-samples/browse-nasa-stl-models.html "View files with Hacker's little sibling" ) 
 [GitHub view]( https://github.com/va3c/va3c.github.io/tree/master/nasa-samples "View files with GitHub")  
-[vA3C Hackette view]( http://va3c.github.io/nasa-samples/browse-nasa-stl-models.html "View files with Hacker's little sibling" )  
+[vA3C Hacker Home]( http://va3c.github.io/viewer/va3c-hacker/r3-0dev/va3c-hacker-r3-0dev.html#dispatch.js#../../../nasa-samples/browse-nasa-stl-models.html#add=true )  
 
 <iframe src="http://va3c.github.io/nasa-samples/browse-nasa-stl-models.html#./stl/Dawn_19.stl#random#" width=100% height=500px class='overview' >
 When viewing this page on github.com only the '[o]' link works. Please use Hacker or Hackette for a better viewing experience. 
-</iframe>
+</iframe>  
 
 The following files and images are available and download-able thanks to [NASA 3D Resources (Beta)]( http://nasa3d.arc.nasa.gov/models/printable ).
 
@@ -233,6 +233,10 @@ Multiple part model. Not yet ready for viewing.
 Multiple part model. Not yet ready for viewing.  
 [NASA Description Page]( http://nasa3d.arc.nasa.gov/detail/new-horizons )
 
+
+
+
+***
 
 <style>img { width: 375px; } /* yup, this works */</style>
 
