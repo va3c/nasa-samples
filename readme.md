@@ -1,7 +1,7 @@
 [NASA 3D Models - 3D Printable STL Files]( ./browse-nasa-stl-models.html )
 ===
 
-[vA3C Hackette view]( http://va3c.github.io/nasa-samples/browse-nasa-stl-models.html "View files with Hacker's little sibling" ) 
+[vA3C Hackette view]( http://va3c.github.io/nasa-samples/browse-nasa-stl-models.html "View files with Hacker's little sibling" )  
 [GitHub view]( https://github.com/va3c/va3c.github.io/tree/master/nasa-samples "View files with GitHub")  
 [vA3C Hacker Home]( http://va3c.github.io/viewer/va3c-hacker/r3-0dev/va3c-hacker-r3-0dev.html#dispatch.js#../../../nasa-samples/browse-nasa-stl-models.html#add=true )  
 
