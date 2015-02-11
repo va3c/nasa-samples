@@ -6,7 +6,7 @@ Developer Notes
 2015-02-11 ~ add how-to section that explains the permalink capability
 2015-02-11 ~ add ability to assemble and display multi-part files
 2015-02-11 ~ Add load a fresh random image every thirty seconds
-
+2015-02-11 ~ Add file load progress monitor
 
 2015-02-11 ~ Theo
 
