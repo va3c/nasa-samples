@@ -69,9 +69,19 @@
 
 		loadSTLInIframe( '#./stl/' + file[0] + '#axis#gradient#grid#ground#random#' );
 
-		slideMenu(); // to open opened
+
 
 		window.addEventListener ( 'hashchange', onHashChange, false );
+
+		if ( window.self === window.top ) {
+
+		slideMenu(); // to open opened
+
+		} else {
+
+//			msg.innerHTML += 'inside an iframe';
+
+		}
 
 	}
 
@@ -87,8 +97,7 @@
 
 		if ( hashes.length > 1 && hashes[ 1 ].substr( -3 ) === '.md' ) {
 
-
-			loadMarkdownInIframe( hashes[ 1 ] )
+			loadMarkdownInIframe( hashes[ 1 ] );
 
 		} else if ( hashes.length > 1 && hashes[ 1 ].substr( -4 ) === '.stl' ) {
 
@@ -138,11 +147,11 @@ console.log( 'loaded: ', hashes[ 1 ] );
 
 		}
 
-	};
+	}
 
 	function loadMarkdownInIframe( hashes, callback ) {
 
-		ifr = resetIframe( callback );
+
 console.log( 'hashes', hashes  );
 		var srcdoc =  "<div id=doc ><\/div>" +
 
