@@ -1,6 +1,20 @@
 Developer Notes
 ===
 
+### Read Map
+
+2015-02-11 ~ add how-to section that explains the permalink capability
+2015-02-11 ~ add ability to assemble and display multi-part files
+2015-02-11 ~ Add load a fresh random image every thirty seconds
+
+
+2015-02-11 ~ Theo
+
+* Code clean-up
+* Add ability to new or add to new release
+* Add display file name of each file loaded
+* Add autoRotate after two seconds and no mouse movements
+
 2015-02-09 ~ Theo
 
 Now the files are being used to test vA3C Hacker Mobile.

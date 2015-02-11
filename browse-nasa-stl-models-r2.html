@@ -1,11 +1,10 @@
 <!doctype html>
 <html lang=en >
 <head>
-<title>Nice Hacks Mobile R1</title>
+<title>browse-nasa-stl-models R2</title>
 <meta charset=utf-8 />
 <meta name=viewport content=width=device-width,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0 />
 <meta name=author content='Theo Armour' />
-<link rel=stylesheet href=http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css />
 </head>
 <body>
 <script src=http://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js ></script>
@@ -55,10 +54,17 @@
 			'#bars { colors: #ccc; }' +
 		'';
 
+		info = document.body.appendChild( document.createElement( 'div' ) );
+		info.style.cssText = 'left: 0; margin: auto; position: absolute; right: 0; text-align: center; top: 0px; width: 30%;';
+		info.innerHTML = 
+//			'<a href="" ><h1>' + document.title + '</h1></a>' +
+			'<div id=msg></div>' +
+		'';
+
 		header = document.body.appendChild( document.createElement( 'div' ) );
 		header.style.cssText = 'position: absolute; left: 20px; transition: left 1s; ';
 		header.innerHTML = '<h1>' +
-			'<a href=JavaScript:slideMenu(); id=bars ><i class="fa fa-bars"></a></i>'+
+			'<a href=JavaScript:slideMenu(); id=bars >&#9776;</a>'+
 		'</h1>';
 
 		menu =  header.appendChild( document.createElement( 'div' ) );
@@ -68,8 +74,6 @@
 		loadMarkdownInMenu( 'readme.md', menu );
 
 		loadSTLInIframe( '#./stl/' + file[0] + '#axis#gradient#grid#ground#random#' );
-
-
 
 		window.addEventListener ( 'hashchange', onHashChange, false );
 
@@ -109,9 +113,11 @@
 
 	function loadSTLInIframe( hash ) {
 
-		hashes = hash.split ( '#' );
+		var hashes = hash.split ( '#' );
 
-		if ( !ifr ) {
+		add = hashes.indexOf( 'add=true' ) === -1 ? false : true;
+
+		if ( !ifr && !add ) {
 
 			loadThreeJSInIframe( hash, callback );
 
@@ -119,15 +125,19 @@
 
 			ifr.contentWindow.loadFileSTL( hashes[ 1 ], hash );
 
+
 			history.pushState( '', document.title, window.location.pathname );
 
 		}
 
 		function callback() {
 
-console.log( 'loaded: ', hashes[ 1 ] );
+// console.log( 'loaded: ', hashes[ 1 ] );
 
 		}
+
+		msg.innerHTML += '<h2>' + hashes[ 1 ].substr( 6 )  + '</h2> ';
+
 	}
 
 	function loadMarkdownInMenu( fileName, panel ) {
@@ -151,8 +161,8 @@ console.log( 'loaded: ', hashes[ 1 ] );
 
 	function loadMarkdownInIframe( hashes, callback ) {
 
+//console.log( 'hashes', hashes  );
 
-console.log( 'hashes', hashes  );
 		var srcdoc =  "<div id=doc ><\/div>" +
 
 			"<script src=http://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js ><\/script>" +
@@ -248,6 +258,7 @@ console.log( 'hashes', hashes  );
 			"<script>" +
 
 			"	var info, stats, renderer, scene, camera, controls;" +
+			"	var startTime = performance.now();" +
 
 			"	init();" +
 			"	animate();" +
@@ -306,13 +317,31 @@ console.log( 'hashes', hashes  );
 			grid +
 			axis +
 
-			"loadFileSTL( '" + fileName + "','" + hash + "' );" +
+			"		loadFileSTL( '" + fileName + "','" + hash + "' );" +
 
 			gradient +
 
+			"		controls.autoRotateSpeed = 0.5;" +
+
+			"		renderer.domElement.addEventListener( 'mousemove', onMouseMove, false );" +
+
 			"	}" +
 
-			"	function animate() {" +
+			"	function onMouseMove() {" +
+
+			"		startTime = performance.now();" +
+			"		controls.autoRotate = false;" +
+
+			"	}" +
+
+
+			"	function animate( timestamp ) {" +
+
+					"if ( timestamp - startTime > 2000) {" +
+
+						"controls.autoRotate = true;" +
+
+					"}" +
 
 			"		renderer.render( scene, camera );" +
 			"		controls.update();" +
