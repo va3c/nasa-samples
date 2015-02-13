@@ -26,12 +26,10 @@ Thank you to all the people that make this effort possible!
 [GitHub  web page]( http://va3c.github.io/nasa-samples/ "view the files as apps." ) <input value="<< You are here" size=15 style="font:bold 11pt monospace;border-width:0;" >  
 [GitHub source code]( https://github.com/va3c/va3c.github.io/tree/master/nasa-samples "View files with GitHub" ) <scan style=display:none ><< You are here</scan>  
 [vA3C Hacker Home]( http://va3c.github.io/viewer/va3c-hacker/r4/va3c-hacker-r4.html#../../../nasa-samples/browse-nasa-stl-models.html#add=true )  
-[vA3C Viewer ~ Hackathon Release]( http://va3c.github.io )
 
 ***
 
-
-### Block Island
+### Block Island - big file 
 [![Block Island 08152013]( http://nasa3d.arc.nasa.gov/shared_assets/models/block-island/block-island-428x321.png )]( #./stl/Block_Island_08152013.stl#random#add=true "NASA model" )  
 
 [[O]]( http://va3c.github.io/nasa-samples/index.html#./stl/Block_Island_08152013.stl#random "NASA model" ) 
@@ -63,7 +61,7 @@ Thank you to all the people that make this effort possible!
 [NASA Description Page]( http://nasa3d.arc.nasa.gov/detail/jpl-vtad-dsn34 )
 [GitHub View]( https://github.com/va3c/va3c.github.io/blob/master/nasa-samples/stl/34M_17.stl )
 
-### Eros
+### Eros - big file
 [![Eros]( http://nasa3d.arc.nasa.gov/shared_assets/models/eros/eros.PNG )]( #./stl/eros.stl#random#sx=5#sy=5#sz=5#random#add=true "NASA model" )   
 
 [[O]]( http://va3c.github.io/nasa-samples/index.html#../stl/eros.stl#random#sx=5#sy=5#sz=5# "NASA model" ) 
@@ -71,7 +69,7 @@ Thank you to all the people that make this effort possible!
 [NASA Description Page]( http://nasa3d.arc.nasa.gov/detail/eros )
 [GitHub View]( https://github.com/va3c/va3c.github.io/blob/master/nasa-samples/stl/eros.stl )
 
-### Eta Carinae Homunculus Nebula
+### Eta Carinae Homunculus Nebula - big file
 [![Eta Carinae Homunculus Nebula]( http://nasa3d.arc.nasa.gov/shared_assets/models/eta-carinae-homunculus-nebula/homunculus-428x321.jpg)]( #./stl/Eta_Car_Homunuculus_model.stl#random#sx=50#sy=50#sz=50# "Eta Carinae Homunculus Nebula"" )   
 
 [[O]]( http://va3c.github.io/nasa-samples/index.html#../stl/Eta_Car_Homunuculus_model.stl#random#sx=50#sy=50#sz=50#add=true "NASA model" ) 
@@ -79,7 +77,7 @@ Thank you to all the people that make this effort possible!
 [NASA Description Page]( http://nasa3d.arc.nasa.gov/detail/eta-carinae-homunculus-nebula )
 [GitHub View]( https://github.com/va3c/va3c.github.io/blob/master/nasa-samples/stl/Eta_Car_Homunuculus_model.stl )
 
-### Gale Crater
+### Gale Crater - big file
 [![Gale Crater]( http://nasa3d.arc.nasa.gov/shared_assets/models/gale-crater/gale_crater.PNG )]( #./stl/gale_crater.STL#random#add=true "" )   
 
 [[O]]( http://va3c.github.io/nasa-samples/index.html#../stl/gale_crater.STL#random "NASA model" ) 
@@ -87,7 +85,7 @@ Thank you to all the people that make this effort possible!
 [NASA Description Page]( http://nasa3d.arc.nasa.gov/detail/gale-crater )
 [GitHub View]( https://github.com/va3c/va3c.github.io/blob/master/nasa-samples/stl/gale_crater.STL )
 
-### Hurricane Julio
+### Hurricane Julio - big file
 [![Hurricane Julio]( http://nasa3d.arc.nasa.gov/shared_assets/models/hurricane-julio/julio-428.jpg )]( #./stl/Hurricane_Julio.stl#random#add=true "" )   
 
 [[O]]( http://va3c.github.io/nasa-samples/index.html#../stl/Hurricane_Julio.stl#random "Hurricane Julio" ) 
@@ -95,7 +93,7 @@ Thank you to all the people that make this effort possible!
 [NASA Description Page]( http://nasa3d.arc.nasa.gov/detail/hurricane-julio )
 [GitHub View]( https://github.com/va3c/va3c.github.io/blob/master/nasa-samples/stl/Hurricane_Julio.stl )
 
-### Itokawa
+### Itokawa - big file
 [![Itokawa]( http://nasa3d.arc.nasa.gov/shared_assets/models/itokawa/itokawa-110-75.png )]( #./stl/itokawa.STL#random#sx=5#sy=5#sz=5#add=true "" )   
 
 [[O]]( http://va3c.github.io/nasa-samples/index.html#../stl/itokawa.STL#random#sx=5#sy=5#sz=5# "Itokawa" ) 
@@ -143,7 +141,7 @@ Thank you to all the people that make this effort possible!
 [NASA Description Page]( http://nasa3d.arc.nasa.gov/detail/eoss-messenger )
 [GitHub View]( https://github.com/va3c/va3c.github.io/blob/master/nasa-samples/stl/MESSENGER.stl )
 
-### Moon Nearside Farside
+### Moon Nearside Farside - big file
 [![Moon Nearside Farside]( http://nasa3d.arc.nasa.gov/shared_assets/models/moon-nearside-farside/moon_near_farside.PNG )]( #./stl/moon_near_side.stl#random#sx=3#sy=3#sz=3#add=true "Moon Nearside Farside" )   
 
 [[O]]( http://va3c.github.io/nasa-samples/index.html#../stl/moon_near_side.stl#random#sx=3#sy=3#sz=3# "Moon Nearside Farside" ) 
@@ -199,7 +197,7 @@ Thank you to all the people that make this effort possible!
 [NASA Description Page]( http://nasa3d.arc.nasa.gov/detail/eoss-tdrs )
 [GitHub View]( https://github.com/va3c/va3c.github.io/blob/master/nasa-samples/stl/tdrs.stl )
 
-### Valles Marineris
+### Valles Marineris - big file
 [![Valles Marineris]( http://nasa3d.arc.nasa.gov/shared_assets/models/valles-marineris/mars_valles_mar.PNG )]( #./stl/mars_valles_mar.stl#random#add=true "Valles Marineris" )   
 
 [[O]]( http://va3c.github.io/nasa-samples/index.html#./stl/mars_valles_mar.stl#random "Valles Marineris" ) 
@@ -207,7 +205,7 @@ Thank you to all the people that make this effort possible!
 [NASA Description Page]( http://nasa3d.arc.nasa.gov/detail/valles-marineris )
 [GitHub View]( https://github.com/va3c/va3c.github.io/blob/master/nasa-samples/stl/mars_valles_mar.stl )
 
-### Vesta
+### Vesta - big file
 [![Vesta]( http://nasa3d.arc.nasa.gov/shared_assets/models/vesta/vesta_two_hemi.png )]( #./stl/vesta_two_hemi.stl#random#add=true "Vesta" )   
 
 [[O]]( http://va3c.github.io/nasa-samples/index.html#./stl/vesta_two_hemi.stl#random "Vesta" ) 
