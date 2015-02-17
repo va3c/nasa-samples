@@ -23,7 +23,7 @@ See also [NASA Imagery Usage Guidelines]( http://www.nasa.gov/audience/formedia/
 Thank you to all the people that make this effort possible!
 
 [Developer Notes]( #./dev-notes.md# )  
-[GitHub  web page]( http://va3c.github.io/nasa-samples/ "view the files as apps." ) <input value="<< You are here" size=15 style="font:bold 11pt monospace;border-width:0;" >  
+[GitHub  web page]( http://va3c.github.io/nasa-samples/index.html "view the files as apps." ) <input value="<< You are here" size=15 style="font:bold 11pt monospace;border-width:0;" >  
 [GitHub source code]( https://github.com/va3c/va3c.github.io/tree/master/nasa-samples "View files with GitHub" ) <scan style=display:none ><< You are here</scan>  
 [vA3C Hacker Home]( http://va3c.github.io/viewer/va3c-hacker/r4/va3c-hacker-r4.html#../../../nasa-samples/browse-nasa-stl-models.html#add=true )  
 
